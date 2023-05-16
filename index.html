@@ -7,9 +7,25 @@
     <title>Pokedex</title>
 </head>
 
+<style>
+    h1{
+        color: red;
+    }
+</style>
+
 <body>
 
     <h1>Hello world</h1>
+    <p>Site feito junto de um curso da Dio</p>
+    <button id="btnTeste" type="button">Teste</button>
     
+    <script>
+
+      const btnTeste = document.getElementById("btnTeste")
+        btnTeste.addEventListener("click",function () {
+            console.log ('clicou no botão!')
+            
+        })
+    </script>
 </body>
 </html>
